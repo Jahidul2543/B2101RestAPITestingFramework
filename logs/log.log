@@ -1,0 +1,106 @@
+2021-09-07 20:59:51 INFO  Base:30 - End Point : /test/people
+2021-09-07 20:59:51 DEBUG Base:31 - I can log when debug mode is enabled
+2021-09-07 20:59:54 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com:443
+2021-09-07 20:59:54 DEBUG DefaultClientConnectionOperator:177 - Connecting to 5x9m5ed0tj.execute-api.us-east-1.amazonaws.com:443
+2021-09-07 20:59:54 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-09-07 20:59:54 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2021-09-07 20:59:54 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-09-07 20:59:54 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2021-09-07 20:59:54 DEBUG DefaultClientConnection:274 - Sending request: GET /test/people HTTP/1.1
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "GET /test/people HTTP/1.1[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "Authorization: Bearer eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjMxMDYyNzkyLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MzEwNjYzOTIsImlhdCI6MTYzMTA2Mjc5MiwidmVyc2lvbiI6MiwianRpIjoiNTg5ZDFmYjQtOGY3My00OTM4LTgxNWEtMDM5NjE4OTA2NTMyIiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.MQDWI9yuy8KybIFJRWtotdaWhkzSgnvPonzZC7N0ZusXvFYlhmSYBfzX0gS2HpUkjOU8KGW-9j8Es5j0cMHzkC-b8SEFAClwg_JrmWlhEOT7j1PLI3t-L7p1eh_3n31QzbDwhae0igXpjsXTBxZUXqESYvycS0BqKGwy3rrxaiEPG1RJYNaViNId7eu71e48nXuPanDHL1oMGWXSryL26dUbh_MsIier1MIxdE2dg8LYhGohNpqLa52VVNR7ndAr8cU31Gctu2rK5SYlKBSO85JoUMLMqXXn6bAOPQTVrfkDazAqXg1Cf8P0kuTXmBB-chRsmpnXhPddR54efTvaLg[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "Host: 5x9m5ed0tj.execute-api.us-east-1.amazonaws.com[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_275)[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  >> "[\r][\n]"
+2021-09-07 20:59:54 DEBUG headers:278 - >> GET /test/people HTTP/1.1
+2021-09-07 20:59:54 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-09-07 20:59:54 DEBUG headers:281 - >> Authorization: Bearer eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjMxMDYyNzkyLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MzEwNjYzOTIsImlhdCI6MTYzMTA2Mjc5MiwidmVyc2lvbiI6MiwianRpIjoiNTg5ZDFmYjQtOGY3My00OTM4LTgxNWEtMDM5NjE4OTA2NTMyIiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.MQDWI9yuy8KybIFJRWtotdaWhkzSgnvPonzZC7N0ZusXvFYlhmSYBfzX0gS2HpUkjOU8KGW-9j8Es5j0cMHzkC-b8SEFAClwg_JrmWlhEOT7j1PLI3t-L7p1eh_3n31QzbDwhae0igXpjsXTBxZUXqESYvycS0BqKGwy3rrxaiEPG1RJYNaViNId7eu71e48nXuPanDHL1oMGWXSryL26dUbh_MsIier1MIxdE2dg8LYhGohNpqLa52VVNR7ndAr8cU31Gctu2rK5SYlKBSO85JoUMLMqXXn6bAOPQTVrfkDazAqXg1Cf8P0kuTXmBB-chRsmpnXhPddR54efTvaLg
+2021-09-07 20:59:54 DEBUG headers:281 - >> Accept: */*
+2021-09-07 20:59:54 DEBUG headers:281 - >> Host: 5x9m5ed0tj.execute-api.us-east-1.amazonaws.com
+2021-09-07 20:59:54 DEBUG headers:281 - >> Connection: Keep-Alive
+2021-09-07 20:59:54 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_275)
+2021-09-07 20:59:54 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2021-09-07 20:59:54 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  << "Date: Wed, 08 Sep 2021 00:59:54 GMT[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  << "Content-Type: application/json[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  << "Content-Length: 776[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  << "x-amzn-RequestId: 65f3b0a2-59b0-4db7-a208-f8a14f3070b9[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  << "x-amz-apigw-id: FUapuEDLIAMFQsQ=[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  << "X-Amzn-Trace-Id: Root=1-61380b0a-4d8964d45fdfbff67b8eaa8d;Sampled=0[\r][\n]"
+2021-09-07 20:59:54 DEBUG wire:73 -  << "[\r][\n]"
+2021-09-07 20:59:54 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-09-07 20:59:54 DEBUG headers:262 - << HTTP/1.1 200 OK
+2021-09-07 20:59:54 DEBUG headers:265 - << Date: Wed, 08 Sep 2021 00:59:54 GMT
+2021-09-07 20:59:54 DEBUG headers:265 - << Content-Type: application/json
+2021-09-07 20:59:54 DEBUG headers:265 - << Content-Length: 776
+2021-09-07 20:59:54 DEBUG headers:265 - << Connection: keep-alive
+2021-09-07 20:59:54 DEBUG headers:265 - << x-amzn-RequestId: 65f3b0a2-59b0-4db7-a208-f8a14f3070b9
+2021-09-07 20:59:54 DEBUG headers:265 - << x-amz-apigw-id: FUapuEDLIAMFQsQ=
+2021-09-07 20:59:54 DEBUG headers:265 - << X-Amzn-Trace-Id: Root=1-61380b0a-4d8964d45fdfbff67b8eaa8d;Sampled=0
+2021-09-07 20:59:54 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-09-07 20:59:54 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2021-09-07 20:59:54 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-09-07 20:59:54 DEBUG wire:87 -  << "{"statusCode": 200, "body": "{\"name\": \"Luke Skywalker\", \"height\": \"172\", \"mass\": \"77\", \"hair_color\": \"blond\", \"skin_color\": \"fair\", \"eye_color\": \"blue\", \"birth_year\": \"19BBY\", \"gender\": \"male\", \"homeworld\": \"http://swapi.dev/api/planets/1/\", \"films\": [\"http://swapi.dev/api/films/1/\", \"http://swapi.dev/api/films/2/\", \"http://swapi.dev/api/films/3/\", \"http://swapi.dev/api/films/6/\"], \"species\": [], \"vehicles\": [\"http://swapi.dev/api/vehicles/14/\", \"http://swapi.dev/api/vehicles/30/\"], \"starships\": [\"http://swapi.dev/api/starships/12/\", \"http://swapi.dev/api/starships/22/\"], \"created\": \"2014-12-09T13:50:51.644000Z\", \"edited\": \"2014-12-20T21:17:56.891000Z\", \"url\": \"http://swapi.dev/api/people/1/\"}"}"
+2021-09-07 20:59:54 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@51f49060
+2021-09-07 20:59:54 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2021-09-07 20:59:55 INFO  Base:30 - End Point : /test/submit
+2021-09-07 20:59:55 DEBUG Base:31 - I can log when debug mode is enabled
+2021-09-07 20:59:55 DEBUG BasicClientConnectionManager:161 - Get connection for route {s}->https://5x9m5ed0tj.execute-api.us-east-1.amazonaws.com:443
+2021-09-07 20:59:55 DEBUG DefaultClientConnectionOperator:177 - Connecting to 5x9m5ed0tj.execute-api.us-east-1.amazonaws.com:443
+2021-09-07 20:59:55 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-09-07 20:59:55 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2021-09-07 20:59:55 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-09-07 20:59:55 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2021-09-07 20:59:55 DEBUG DefaultClientConnection:274 - Sending request: POST /test/submit HTTP/1.1
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "POST /test/submit HTTP/1.1[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "Authorization: Bearer eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjMxMDYyNzk1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MzEwNjYzOTUsImlhdCI6MTYzMTA2Mjc5NSwidmVyc2lvbiI6MiwianRpIjoiYzY2Y2QxNDEtYWY5NS00MGE3LWI5YzktNWJlNmUyN2JkYmQ0IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.EkPRNdFn8yC3YGclHceI_42K4AUnPQ-CaxSzCh81ngJqXyDiFPFRHmgFfOKb-pCOJIre6wo5nt9rxd1kQ83gF_rnlREEd-A8CkxDRwZOnempRzc7u7y62UeECJW2mELicw2-IIhKA52t0EYv13QlCkvEPEVNqc3u6Q-dHHPIYfHMvxKDIVTyS7DaI0KrK8jXfVwkVwzdzZBpT2q0xYTkpqgZRs-aLnTayk8bScJHGwTKVkXsxt9rZ8MCW2gjM6ZpxPfb8D77qtnUcobaXyqHiqpvuWtdEKrAhAUrC6SswKjqURUzRYsZ4gWmZ7BiRVkDQc18ibiPH0b_pYNZucNIJQ[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "Content-Length: 35[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "Host: 5x9m5ed0tj.execute-api.us-east-1.amazonaws.com[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_275)[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "[\r][\n]"
+2021-09-07 20:59:55 DEBUG headers:278 - >> POST /test/submit HTTP/1.1
+2021-09-07 20:59:55 DEBUG headers:281 - >> Authorization: Bearer eyJraWQiOiJtNlhhM3FkczlxY2o2ODZYOVBRb0JqTEJSQU5yMzBPZ21ZQzdvdThZc1N3PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIxdTVpbzR2YTlzcjQ1bjc5ZmNlZzJkYW1qZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiaXphYW5fdGVzdFwvcG9zdF9pbmZvIiwiYXV0aF90aW1lIjoxNjMxMDYyNzk1LCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAudXMtZWFzdC0xLmFtYXpvbmF3cy5jb21cL3VzLWVhc3QtMV9ZN3k4cTVDMVoiLCJleHAiOjE2MzEwNjYzOTUsImlhdCI6MTYzMTA2Mjc5NSwidmVyc2lvbiI6MiwianRpIjoiYzY2Y2QxNDEtYWY5NS00MGE3LWI5YzktNWJlNmUyN2JkYmQ0IiwiY2xpZW50X2lkIjoiMXU1aW80dmE5c3I0NW43OWZjZWcyZGFtamYifQ.EkPRNdFn8yC3YGclHceI_42K4AUnPQ-CaxSzCh81ngJqXyDiFPFRHmgFfOKb-pCOJIre6wo5nt9rxd1kQ83gF_rnlREEd-A8CkxDRwZOnempRzc7u7y62UeECJW2mELicw2-IIhKA52t0EYv13QlCkvEPEVNqc3u6Q-dHHPIYfHMvxKDIVTyS7DaI0KrK8jXfVwkVwzdzZBpT2q0xYTkpqgZRs-aLnTayk8bScJHGwTKVkXsxt9rZ8MCW2gjM6ZpxPfb8D77qtnUcobaXyqHiqpvuWtdEKrAhAUrC6SswKjqURUzRYsZ4gWmZ7BiRVkDQc18ibiPH0b_pYNZucNIJQ
+2021-09-07 20:59:55 DEBUG headers:281 - >> Accept: */*
+2021-09-07 20:59:55 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-09-07 20:59:55 DEBUG headers:281 - >> Content-Length: 35
+2021-09-07 20:59:55 DEBUG headers:281 - >> Host: 5x9m5ed0tj.execute-api.us-east-1.amazonaws.com
+2021-09-07 20:59:55 DEBUG headers:281 - >> Connection: Keep-Alive
+2021-09-07 20:59:55 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_275)
+2021-09-07 20:59:55 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "{[\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "  "name" : "John",[\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  >> "  "age" : 50[\n]"
+2021-09-07 20:59:55 DEBUG wire:87 -  >> "}"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "Date: Wed, 08 Sep 2021 00:59:55 GMT[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "Content-Type: application/json[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "Content-Length: 31[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "Connection: keep-alive[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "x-amzn-RequestId: a9555f27-39f9-4dc1-9585-a44266660f8a[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "x-amz-apigw-id: FUap1HM3oAMF3mw=[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "X-Amzn-Trace-Id: Root=1-61380b0b-0584a487259835ff2fd56fc8;Sampled=0[\r][\n]"
+2021-09-07 20:59:55 DEBUG wire:73 -  << "[\r][\n]"
+2021-09-07 20:59:55 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-09-07 20:59:55 DEBUG headers:262 - << HTTP/1.1 200 OK
+2021-09-07 20:59:55 DEBUG headers:265 - << Date: Wed, 08 Sep 2021 00:59:55 GMT
+2021-09-07 20:59:55 DEBUG headers:265 - << Content-Type: application/json
+2021-09-07 20:59:55 DEBUG headers:265 - << Content-Length: 31
+2021-09-07 20:59:55 DEBUG headers:265 - << Connection: keep-alive
+2021-09-07 20:59:55 DEBUG headers:265 - << x-amzn-RequestId: a9555f27-39f9-4dc1-9585-a44266660f8a
+2021-09-07 20:59:55 DEBUG headers:265 - << x-amz-apigw-id: FUap1HM3oAMF3mw=
+2021-09-07 20:59:55 DEBUG headers:265 - << X-Amzn-Trace-Id: Root=1-61380b0b-0584a487259835ff2fd56fc8;Sampled=0
+2021-09-07 20:59:55 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-09-07 20:59:55 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: application/json
+2021-09-07 20:59:55 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-09-07 20:59:55 DEBUG wire:87 -  << "{"message": "You are an Adult"}"
+2021-09-07 20:59:55 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@32f61a31
+2021-09-07 20:59:55 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
